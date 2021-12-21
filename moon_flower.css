@@ -209,7 +209,7 @@ footer{
     flex-direction: column;
   }  
   .body, .health {
-	flex-direction: column-reverse;
+	/*flex-direction: column-reverse;*/
   }
   
   .family_img,.body_img, .soul_img, .health_img {
