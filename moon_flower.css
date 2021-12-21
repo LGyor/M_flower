@@ -111,7 +111,7 @@ header{
   display: flex;	
   justify-content: space-between;
   padding-bottom: 2rem;
-  /*border: 2px solid blue;*/
+
 }
 
 .family_img,.body_img, .soul_img, .health_img {
@@ -121,11 +121,14 @@ header{
 	
 }
 .family_img img,.body_img img, .soul_img img, .health_img  img{
-  width: 80%;	
+  width: 100%;	
   border-radius: 1.4rem;
-  margin: 0;  
   box-shadow: 0 0 10px 5px #4d2600;  
 }
+
+
+
+
 .family_text, .body_text, .soul_text, .health_text {
   width: 48%;	
   font-size: 1.4rem;
