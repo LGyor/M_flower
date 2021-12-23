@@ -10,6 +10,19 @@ body{
   font-family: 'IM Fell English SC', serif;	
 
 }
+
+
+hr{ 
+  background-color: red;
+  height: 0.5rem;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto 2rem auto;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg , rgba(205,133,63,1) 0%, rgba(181,90,48,1) 50%, rgba(205,133,63,1) 100%);
+	
+}
 /* --------------------- HEADER --------------------- */
 .company_name {
   display: flex;
@@ -126,7 +139,55 @@ header{
   box-shadow: 0 0 10px 5px #4d2600;  
 }
 
+.family_img a {
+  width: 80%; 	
+  transition : transform 0.4s;
+}
 
+.body_img a {
+  width: 80%;  	
+  transition : transform 0.4s;
+}
+
+.soul_img a {
+  width: 80%;  	
+  transition : transform 0.4s;
+}
+
+.health_img a {
+  width: 80%;  	
+  transition : transform 0.4s;
+}
+
+
+.family_img a img{
+  width: 100%;  	
+}
+
+.body_img a img {
+  width: 100%;  	
+}
+
+.soul_img a img {
+  width: 100%;  	
+}
+.health_img a img {
+  width: 100%;  	
+}
+
+
+.family_img a:hover{
+  transform: scale(1.01, 1.01);  	
+}
+.body_img a:hover {
+  transform: scale(1.01, 1.01);  	
+}
+.soul_img a:hover {
+  transform: scale(1.01, 1.01);  	
+}
+.health_img a:hover {
+  transform: scale(1.01, 1.01);  	
+}
 
 
 .family_text, .body_text, .soul_text, .health_text {
@@ -221,7 +282,9 @@ footer{
   } 
   .family_text, .body_text, .soul_text, .health_text {
     width: 100%;	
-  } 
+  }
+  
+  
   .body_img, .health_img {
     justify-content: center;
 	flex-direction: column-reverse;
@@ -263,10 +326,18 @@ footer{
 	.page_1_content>p>span{
 	  font-size: 1.15rem;  
 	}	
+	  }
+	
+   .family_img a, .body_img a, .soul_img a, .health_img a {
+     margin: 0 auto;
+   }	
+  
+	
+	
 	
     .family_text, .body_text, .soul_text, .health_text {
 	
-      font-size: 1.1rem;
+      font-size: 1.2rem;
 	}	
 	
     .family_text h3, .body_text h3, .soul_text h3, .health_text h3{
